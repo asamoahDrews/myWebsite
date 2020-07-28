@@ -1,0 +1,146 @@
+[1mdiff --git a/src/assets/profile.jpg b/src/assets/profile.jpg[m
+[1mindex 12b14a3..d572c5d 100644[m
+Binary files a/src/assets/profile.jpg and b/src/assets/profile.jpg differ
+[1mdiff --git a/src/style/abstracts/_variables.scss b/src/style/abstracts/_variables.scss[m
+[1mindex 808ce70..b4d0408 100644[m
+[1m--- a/src/style/abstracts/_variables.scss[m
+[1m+++ b/src/style/abstracts/_variables.scss[m
+[36m@@ -1,5 +1,5 @@[m
+ // COLORS[m
+[31m-$primary-color: #02aab0;[m
+[32m+[m[32m$primary-color: #16222A;[m
+ $secondary-color: #00cdac;[m
+ [m
+ $white-color: #fff;[m
+[1mdiff --git a/src/template.html b/src/template.html[m
+[1mindex 0765200..a5690e5 100644[m
+[1m--- a/src/template.html[m
+[1m+++ b/src/template.html[m
+[36m@@ -18,7 +18,7 @@[m
+     <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />[m
+ [m
+     <!-- Put here your site title -->[m
+[31m-    <title>[Your name here] | Developer</title>[m
+[32m+[m[32m    <title>Asamoah Andrews | Developer</title>[m
+     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->[m
+     <meta name="keywords" content="[username], [name], skill" />[m
+     <!-- Improve your SEO by adding a small descrption of you -->[m
+[36m@@ -46,12 +46,12 @@[m
+     <div id="hero" class="jumbotron">[m
+       <div class="container">[m
+         <h1 class="hero-title" class="load-hidden">[m
+[31m-          Hi, my name is <span class="text-color-main">Your Name</span>[m
+[32m+[m[32m          Hi, my name is <span class="text-color-main">Asamoah Andrews</span>[m
+           <br />[m
+[31m-          I'm the Unknown Developer.[m
+[32m+[m[32m          I'm the developer you need.[m
+         </h1>[m
+         <p class="hero-cta" class="load-hidden">[m
+[31m-          <a class="cta-btn cta-btn--hero" href="#about">Know more</a>[m
+[32m+[m[32m          <a class="cta-btn cta-btn--hero" href="#about">Hire Me</a>[m
+         </p>[m
+       </div>[m
+     </div>[m
+[36m@@ -78,16 +78,10 @@[m
+           <div class="col-md-6 col-sm-12">[m
+             <div class="about-wrapper__info">[m
+               <p class="about-wrapper__info-text">[m
+[31m-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.[m
+[31m-                Excepturi neque, ipsa animi maiores repellendu distinctioaperiam[m
+[31m-                earum dolor voluptatum consequatur blanditiis inventore debitis[m
+[31m-                fuga numquam voluptate architecto itaque molestiae.[m
+[32m+[m[32m                Asamoah Andrews is a final year student of KNUST and a student of Zero to Mastery. I strive to create simple,original, and impactful user experiences. I take on projects of all sizes; from Web design and build, to flyers design, UI/UX designs, Video editing, CCTV camera installation and even computer repairs(both hardware and software).[m
+               </p>[m
+               <p class="about-wrapper__info-text">[m
+[31m-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.[m
+[31m-                Excepturi neque, ipsa animi maiores repellendu distinctioaperiam[m
+[31m-                earum dolor voluptatum consequatur blanditiis inventore debitis[m
+[31m-                fuga numquam voluptate architecto itaque molestiae.[m
+[32m+[m[32m                I am now a freelance web designer and developer and CCTV camera technician based in Kumasi, Ghana. I am the founder of Drews_Tech Hub. Please do say hello - I look forward to hearing about your project.[m
+               </p>[m
+               <span class="d-flex mt-3">[m
+                 <a target="_blank" class="cta-btn cta-btn--resume" href="#!">[m
+[36m@@ -113,7 +107,7 @@[m
+           <div class="row">[m
+             <div class="col-lg-4 col-sm-12">[m
+               <div class="project-wrapper__text">[m
+[31m-                <h3 class="project-wrapper__text-title">Project Title</h3>[m
+[32m+[m[32m                <h3 class="project-wrapper__text-title">Robofriends</h3>[m
+                 <div>[m
+                   <p class="mb-4">[m
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.[m
+[36m@@ -223,12 +217,12 @@[m
+         </h2>[m
+         <div class="contact-wrapper">[m
+           <p class="contact-wrapper__text">[m
+[31m-            [Put your call to action here][m
+[32m+[m[32m            0557462789/0503309055[m
+           </p>[m
+           <a[m
+             target="_blank"[m
+             class="cta-btn cta-btn--resume"[m
+[31m-            href="mailto:example@email.com"[m
+[32m+[m[32m            href="Andrews:asamoahdrews@gmail.com"[m
+             >Call to Action</a[m
+           >[m
+         </div>[m
+[36m@@ -243,49 +237,31 @@[m
+           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>[m
+         </a>[m
+         <div class="social-links">[m
+[31m-          <a href="#!" target="_blank">[m
+[31m-            <i class="fa fa-twitter fa-inverse"></i>[m
+[32m+[m[32m          <a href="https://t.me/asamoah_Drews" target="_blank">[m
+[32m+[m[32m            <i class="fa fa-telegram fa-inverse"></i>[m
+           </a>[m
+[31m-          <a href="#!" target="_blank">[m
+[31m-            <i class="fa fa-codepen fa-inverse"></i>[m
+[32m+[m[32m          <a href="https://twitter.com/KingJics" target="_blank">[m
+[32m+[m[32m            <i class="fa fa-twitter fa-inverse"></i>[m
+           </a>[m
+[31m-          <a href="#!" target="_blank">[m
+[32m+[m[32m          <a href="https://www.linkedin.com/in/asamoah-andrews-035745121/" target="_blank">[m
+             <i class="fa fa-linkedin fa-inverse"></i>[m
+           </a>[m
+[31m-          <a href="#!" target="_blank">[m
+[32m+[m[32m          <a href="https://github.com/asamoahDrews" target="_blank">[m
+             <i class="fa fa-github fa-inverse"></i>[m
+           </a>[m
+[32m+[m[32m           <a href="https://wa.me/0557462789" target="_blank">[m
+[32m+[m[32m            <i class="fa fa-whatsapp fa-inverse"></i>[m
+[32m+[m[32m          </a>[m
+         </div>[m
+ [m
+         <hr />[m
+ [m
+         <!-- If you give me some credit, will be huge for me :) -->[m
+         <p class="footer__text">[m
+[31m-          © 2020 - Template developed by <a href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>[m
+[32m+[m[32m          © 2020 - <a href="https://github.com/asamoahDrews" target="_blank">Drews_Tech Hub </a>[m
+           </a>[m
+         </p>[m
+ [m
+[31m-        <!-- Remove this paragraph once you setup your custom portfolio -->[m
+[31m-        <p class="mt-3 pt-3">[m
+[31m-          <a[m
+[31m-            class="github-button"[m
+[31m-            href="https://github.com/cobidev/simplefolio/fork"[m
+[31m-            data-icon="octicon-repo-forked"[m
+[31m-            data-size="large"[m
+[31m-            data-show-count="true"[m
+[31m-            aria-label="Fork ntkme/github-buttons on GitHub"[m
+[31m-            >Fork</a[m
+[31m-          >[m
+[31m-          <a[m
+[31m-            class="github-button"[m
+[31m-            href="https://github.com/cobidev/simplefolio"[m
+[31m-            data-icon="octicon-star"[m
+[31m-            data-size="large"[m
+[31m-            data-show-count="true"[m
+[31m-            aria-label="Star cobidev/simplefolio on GitHub"[m
+[31m-            >Star</a[m
+[31m-          >[m
+[31m-        </p>[m
+       </div>[m
+     </footer>[m
+     <!-- /END Footer Section -->[m
